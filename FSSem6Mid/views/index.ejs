@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medium</title>
+</head>
+<body>
+    <div>
+        <h1>Medium</h1>
+        <h1>Discover stories and articled from GLA</h1>
+    </div>
+    <h1>Test</h1>
+  <form action="/" method="post">
+    <h2>Title</h2>
+    <br>
+    <input type="text" name="title">
+    <br><br>
+    <h2>Description</h2>
+    <br>
+    <input type="text" name="desc">
+    <br><br>
+    <h2>Markdown</h2>
+    <br>
+    <input type="text" name="mark">
+    <br><br>
+    <button type="submit">Submit</button>
+  </form>
+  <% arr.forEach((obj) => { %>
+    <div>
+        <h2><%= obj.title %></h2>
+        <li><%= obj.date %></li>
+        <li><%= obj.desc %></li>
+    </div>
+  <% }); %>
+  <%= obj.name + " " + obj.quantity %>
+</body>
+</html>
